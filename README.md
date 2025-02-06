@@ -21,6 +21,7 @@ Training
 You can use --gpu argument to specifiy gpu. To train a model, first create a configuration file (see example_config.yaml) Then run
 
 python train.py
+
 Tips: According to feedback that certain implementations of RAdam optimizer have problems in training convergence in this program, switch to Adam optimizer can solve the problem.
 
 Testing
